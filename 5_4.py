@@ -9,4 +9,3 @@ with open("text_4.txt", "r", encoding="utf=8") as my_f:
 
 with open("file_4_new.txt", "w") as my_f_2:
     my_f_2.writelines(new_file)
-

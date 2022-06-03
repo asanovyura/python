@@ -4,4 +4,3 @@ with open("test_5.1.txt", "w", encoding="utf-8") as my_f:
         if not line:
             break
         print(line, file=my_f)
-
