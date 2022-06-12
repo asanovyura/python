@@ -1,6 +1,5 @@
 class Matrix:
     def __init__(self, list_1, list_2):
-        # self.matr = [list_1, list_2]
         self.list_1 = list_1
         self.list_2 = list_2
 
@@ -26,7 +25,6 @@ my_matrix = Matrix([[8, 5, 12],
                    [[34, 27, 59],
                     [7, 52, 25],
                     [90, 61, 55]])
-# result = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 
 print(my_matrix.__add__())
